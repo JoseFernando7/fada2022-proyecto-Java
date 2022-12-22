@@ -1,6 +1,10 @@
 # Proyecto final FADA
 ## 2022-2
 
+## Integrantes:
+#### José Fernando Restrepo Sánchez 1866146-3743
+#### Juan David Pinzón Londoño 1859977-3743
+#### Juan Felipe Alarcón Sánchez 2266348-3743
 
 En este proyecto se debe construir una librería que provea los métodos para trabajar con matrices dispersas.
 
