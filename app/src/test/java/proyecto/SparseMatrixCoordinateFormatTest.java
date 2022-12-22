@@ -54,7 +54,7 @@ class SparseMatrixCoordinateFormatTest {
         instance.createRepresentation(file3);
         int rowsC[] = {0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 8, 8, 8, 8, 9, 9};
         int colsC[] = {1, 2, 1, 8, 9, 1, 2, 5, 2, 10, 1, 2, 7, 10, 4, 5, 10, 0, 1, 2, 10, 6, 9, 0, 1, 6, 11, 0, 10};
-        int valuesC[] = {1, 4, 1, 1, 1, 1, 2, 8, 3, 3, 1, 4, 9, 9, 7, 3, 7, 1, 2, 3, 6, 9, 9, 1, 1, 7, 1, 9, 4};        assertTrue(Arrays.equals(rowsC, instance.getRows()));
+        int valuesC[] = {1, 4, 1, 1, 1, 1, 2, 8, 3, 3, 1, 4, 9, 9, 7, 3, 7, 1, 2, 3, 6, 9, 9, 1, 1, 7, 1, 9, 4};
         assertTrue(Arrays.equals(rowsC, instance.getRows()));
         assertTrue(Arrays.equals(colsC, instance.getColumns()));
         assertTrue(Arrays.equals(valuesC, instance.getValues()));

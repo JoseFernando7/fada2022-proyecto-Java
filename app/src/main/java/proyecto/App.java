@@ -3,12 +3,24 @@
  */
 package proyecto;
 
-public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
+import javax.naming.OperationNotSupportedException;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
 
-    public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+public class App
+{
+    private static String file1 = "inputs/matrix1.in";
+
+    public static void main(String[] args) throws OperationNotSupportedException, FileNotFoundException {
+        int numRows = 5;
+
+        ArrayList<Integer> canciones = new ArrayList<>(numRows);
+        canciones.add(2);
+        canciones.add(7);
+
+        for (Integer cancion : canciones)
+        {
+            System.out.println((cancion + 1));
+        }
     }
 }
